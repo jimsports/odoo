@@ -51,6 +51,7 @@ class MergePartnerAutomatic(models.TransientModel):
 
     # Group by
     group_by_email = fields.Boolean('Email')
+    group_by_phone = fields.Boolean('Phone')
     group_by_name = fields.Boolean('Name')
     group_by_is_company = fields.Boolean('Is Company')
     group_by_vat = fields.Boolean('VAT')

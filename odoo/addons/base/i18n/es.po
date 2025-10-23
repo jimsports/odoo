@@ -15694,6 +15694,14 @@ msgid "Email"
 msgstr "Correo electrónico"
 
 #. module: base
+#: code:addons/base/models/ir_qweb_fields.py:0
+#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_phone
+#: model_terms:ir.ui.view,arch_db:base.contact
+#, python-format
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
 msgid "Email Address"
