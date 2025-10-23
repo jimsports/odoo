@@ -66,7 +66,7 @@ class MergePartnerAutomatic(models.TransientModel):
     current_line_id = fields.Many2one('base.partner.merge.line', string='Current Line')
     line_ids = fields.One2many('base.partner.merge.line', 'wizard_id', string='Lines')
     partner_ids = fields.Many2many('res.partner', string='Contacts')
-    dst_partner_id = fields.Many2one('res.partner', string='Destination Contact')
+    dst_partner_id = fields.Many2one('res.partner', string='Destination Contact', domain=lambda self: [('id', 'in', self.partner_ids.ids)])
 
     exclude_contact = fields.Boolean('A user associated to the contact')
     exclude_journal_item = fields.Boolean('Journal Items associated to the contact')
@@ -287,8 +287,9 @@ class MergePartnerAutomatic(models.TransientModel):
         if len(partner_ids) < 2:
             return
 
-        if len(partner_ids) > 3:
-            raise UserError(_("For safety reasons, you cannot merge more than 3 contacts together. You can re-open the wizard several times if needed."))
+        max_partners = self.env['ir.config_parameter'].sudo().get_param('max_partners_to_merge', '3')
+        if len(partner_ids) > int(max_partners):
+            raise UserError(_("For safety reasons, you cannot merge more than %s contacts together. You can re-open the wizard several times if needed.") % max_partners)
 
         # check if the list of partners to merge contains child/parent relation
         child_ids = self.env['res.partner']
