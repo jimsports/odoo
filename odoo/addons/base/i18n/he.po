@@ -13619,10 +13619,10 @@ msgstr "עבור שדות יחסים, השם הטכני של מודל היעד"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"מטעמי בטיחות, לא ניתן למזג יותר מ -3 אנשי קשר ביחד. תוכל לפתוח מחדש את האשף "
+"מטעמי בטיחות, לא ניתן למזג יותר מ -%s אנשי קשר ביחד. תוכל לפתוח מחדש את האשף "
 "מספר פעמים אם יש צורך."
 
 #. module: base

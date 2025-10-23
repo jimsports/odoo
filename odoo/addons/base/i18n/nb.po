@@ -13112,10 +13112,10 @@ msgstr "For relasjonsfelt, det tekniske navnet til målmodellen"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Av sikkerhetsgrunner kan du ikke slå sammen mer enn 3 kontakter. Du kan "
+"Av sikkerhetsgrunner kan du ikke slå sammen mer enn %s kontakter. Du kan "
 "gjenåpne veiviseren flere ganger om det trengs."
 
 #. module: base

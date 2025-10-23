@@ -16926,10 +16926,10 @@ msgstr "Para campos de relación, el nombre técnico del modelo destino"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Por razones de seguridad, no puede unir más de 3 contactos en uno. Puede "
+"Por razones de seguridad, no puede unir más de %s contactos en uno. Puede "
 "volver a abrir el asistente todas la veces que necesite."
 
 #. module: base

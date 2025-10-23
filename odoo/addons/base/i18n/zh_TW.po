@@ -16178,9 +16178,9 @@ msgstr "對於關係欄位，目標模型的技術名稱"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
-msgstr "出於安全原因，您不能在一起合併超過 3 聯繫人.如果需要 您可以重新打開該引導幾次。"
+msgstr "出於安全原因，您不能在一起合併超過 %s 聯繫人.如果需要 您可以重新打開該引導幾次。"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard

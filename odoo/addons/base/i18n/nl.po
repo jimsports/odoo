@@ -16765,10 +16765,10 @@ msgstr "Voor relatievelden, de technische naam van het doelmodel"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Uit veiligheidsoverwegingen kunt u niet meer dan 3 contacten samenvoegen. "
+"Uit veiligheidsoverwegingen kunt u niet meer dan %s contacten samenvoegen. "
 "Indien nodig kunt u de wizard meerdere malen gebruiken"
 
 #. module: base

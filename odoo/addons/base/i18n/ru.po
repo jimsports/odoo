@@ -14809,10 +14809,10 @@ msgstr "Для полей связей. Техническое имя целев
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Из соображений безопасности вы не можете объединить более 3 контактов "
+"Из соображений безопасности вы не можете объединить более %s контактов "
 "вместе. Но вы можете повторно открыть мастер несколько раз."
 
 #. module: base

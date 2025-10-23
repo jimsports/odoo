@@ -14682,10 +14682,10 @@ msgstr "Pre vzťahové polia, technický názov cieľového modelu"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Z bezpečnostných dôvodov nie je možné zlúčiť viac ako 3 kontakty dohromady. "
+"Z bezpečnostných dôvodov nie je možné zlúčiť viac ako %s kontakty dohromady. "
 "Môžete znovu otvoriť sprievodcu niekoľkokrát v prípade potreby."
 
 #. module: base

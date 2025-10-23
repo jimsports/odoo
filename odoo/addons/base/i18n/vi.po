@@ -16782,10 +16782,10 @@ msgstr ""
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Vì lý do an toàn, bạn không thể trộn nhiều hơn 3 liên hệ cùng nhau. Bạn có "
+"Vì lý do an toàn, bạn không thể trộn nhiều hơn %s liên hệ cùng nhau. Bạn có "
 "thể mở lại đồ thuật một vài lần nếu cần."
 
 #. module: base

@@ -16269,10 +16269,10 @@ msgstr "İlişkili alanlar için hedef modelin teknik adı"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Güvenlik nedenleriyle, 3 ten fazla kişiyi birarada birleştiremezsiniz. "
+"Güvenlik nedenleriyle, %s ten fazla kişiyi birarada birleştiremezsiniz. "
 "Gerekirse sihirbazı birçok kez yeniden açabilirsiniz."
 
 #. module: base

@@ -13532,10 +13532,10 @@ msgstr "Per camps de relació, el nom tècnic del model destí."
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Per raons de seguretat, no pots unir més de 3 contactes en un. Pot tornar a "
+"Per raons de seguretat, no pots unir més de %s contactes en un. Pot tornar a "
 "obrir l'assistent totes les vegades que necessitis."
 
 #. module: base

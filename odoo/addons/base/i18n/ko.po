@@ -16789,9 +16789,9 @@ msgstr "관계 필드의 경우 대상 모델의 기술적 이름"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
-msgstr "안전상의 이유로 3 개 이상의 연락처를 병합할 수 없습니다. 필요한 경우 마법사를 여러 번 열 수 있습니다."
+msgstr "안전상의 이유로 %s 개 이상의 연락처를 병합할 수 없습니다. 필요한 경우 마법사를 여러 번 열 수 있습니다."
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.identity_check_wizard

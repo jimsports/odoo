@@ -16798,10 +16798,10 @@ msgstr "For relations felter, det tekniske navn på mål modellen"
 #: code:addons/base/wizard/base_partner_merge.py:0
 #, python-format
 msgid ""
-"For safety reasons, you cannot merge more than 3 contacts together. You can "
+"For safety reasons, you cannot merge more than %s contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Af sikkerhedsmæssige grunde kan du ikke sammenlægge mere end 3 kontakter. Du"
+"Af sikkerhedsmæssige grunde kan du ikke sammenlægge mere end %s kontakter. Du"
 " kan gen-åbne wizard'en om nødvendigt."
 
 #. module: base
